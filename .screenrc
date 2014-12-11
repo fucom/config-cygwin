@@ -127,8 +127,8 @@ screen -t bash
 screen -t vim
 screen -t log
 screen -t ssh
+screen -t github
 screen -t lynx
-screen -t w3m
 screen -t misc
 screen -t tmp
 select 0

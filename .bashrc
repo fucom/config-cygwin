@@ -107,7 +107,7 @@ alias egrep='egrep --color=auto'              # show differences in colour
 alias fgrep='fgrep --color=auto'              # show differences in colour
 #
 # Some shortcuts for different directory listings
-alias ls='ls -hF --color=tty'                 # classify files in colour
+alias ls='ls -F --color=tty'                  # classify files in colour
 alias dir='ls --color=auto --format=vertical'
 alias vdir='ls --color=auto --format=long'
 alias ll='ls -l'                              # long list
@@ -215,4 +215,8 @@ export https_proxy=http://proxy.tl.intel.com:911
 
 # For X Server
 export DISPLAY=:0
+
+# Alias to go to Windows user home
+alias ch='cd /cygdrive/c/Users/hcao10/'
+alias cw='cd /cygdrive/c/Users/hcao10/Documents/'
 
