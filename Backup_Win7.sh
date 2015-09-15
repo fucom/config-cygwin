@@ -9,6 +9,9 @@ rsync -a -r -v -z --delete -e ssh /cygdrive/c/Users/hcao10/Documents/Work/ robbi
 # Backup Favorites
 rsync -a -r -v -z --delete -e ssh /cygdrive/c/Users/hcao10/Favorites/ robbie@robc-dev.sh.intel.com:~/Backup/Favorites/
 
+# Backup Project Folder
+rsync -a -r -v -z --delete -e ssh /cygdrive/c/Users/hcao10/Projects/ robbie@robc-dev.sh.intel.com:~/Backup/Projects/
+
 # Backup Outlook
 # rsync -a -r -v -z --delete -e ssh /cygdrive/c/Users/hcao10/Documents/Outlook\ Files/ robbie@robc-dev.sh.intel.com:~/Backup/Outlook/
 
