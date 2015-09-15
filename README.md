@@ -1,4 +1,3 @@
-config-cygwin
+Cygwin Config
 =============
 
-Cygwin config
