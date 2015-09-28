@@ -210,8 +210,8 @@ alias ls='ls -F --color=tty --show-control-chars'
 alias dir='ls -hF --show-control-chars'
 alias less='less --raw-control-chars'
 
-export http_proxy=http://proxy.tl.intel.com:911
-export https_proxy=http://proxy.tl.intel.com:911
+#export http_proxy=http://proxy.tl.intel.com:911
+#export https_proxy=http://proxy.tl.intel.com:911
 
 # For X Server
 export DISPLAY=:0
